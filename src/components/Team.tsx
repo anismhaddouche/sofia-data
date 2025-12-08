@@ -5,7 +5,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 const teamMembers = [
   {
     name: 'Anis Mohamed HADDOUCHE',
-    role: 'Responsable Data',
+    role: 'Head of Data',
     bio: 'Docteur en Statistiques, Anis possède une expertise approfondie en science des données, modélisation prédictive et IA.',
     image: "https://media.licdn.com/dms/image/v2/C4E03AQF1Sh1wMQchzg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1615128698138?e=1743033600&v=beta&t=e2FeaC2Nc8P0ShLIxxz-LGFJ6aA_s8Zssy38kcvWxM0",
     linkedin: "https://www.linkedin.com/in/anis-m-haddouche-a8667175/"
@@ -25,25 +25,25 @@ const teamMembers = [
     linkedin: "https://www.linkedin.com/in/adel-mouloua/"
   },
   {
-    name: 'Sophie LAURENT',
-    role: 'Lead Data Scientist',
-    bio: 'Experte en deep learning et NLP avec plus de 8 ans d\'expérience dans l\'IA appliquée.',
+    name: 'Abdelhak DIFFALLAH',
+    role: 'Business Intelligence Developer',
+    bio: 'Consultant senior en analyse et pilotage de la performance, il cumule une solide expérience dans le numérique, la téléphonie mobile et le secteur pharmaceutique.',
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
-    linkedin: "#"
+    linkedin: "https://www.linkedin.com/in/abdelhak-d-55707ba9/"
   },
   {
-    name: 'Thomas DUBOIS',
-    role: 'Expert MLOps',
-    bio: 'Spécialiste de l\'industrialisation des modèles ML et de l\'automatisation des pipelines IA.',
+    name: 'Chouaib BELDJOUDI',
+    role: 'Business Intelligence Developer',
+    bio: 'Docteur en statistique, enseignant-chercheur et consultant en Business Intelligence, il allie expertise scientifique, pédagogie et accompagnement stratégique des entreprises dans la valorisation de leurs données',
     image: "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
-    linkedin: "#"
+    linkedin: "https://www.linkedin.com/in/chouaib-beldjoudi-64437a93/"
   },
   {
-    name: 'Marie CHEN',
-    role: 'Responsable IA Éthique',
-    bio: 'Docteure en éthique de l\'IA, Marie assure le développement responsable de nos solutions.',
+    name: 'Balthazar Mehus',
+    role: 'Data Engineer',
+    bio: 'Consultant en data engineering spécialisé dans les environnements logistiques, il conçoit et industrialise des pipelines de données robustes, structure les flux d’information et met en place des outils de pilotage permettant d’optimiser la performance opérationnelle et la prise de décision',
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
-    linkedin: "#"
+    linkedin: "https://www.linkedin.com/in/balth-mhs/"
   }
 ];
 
