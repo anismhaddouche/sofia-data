@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, MessageCircle } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Contact = () => {
@@ -96,15 +96,37 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-primary-turquoise mr-3" />
-                  <span className="text-gray-600">+1 (555) 123-4567</span>
+                  <span className="text-gray-600">+33 07 66 55 20 73</span>
+                </div>
+                <div className="flex items-center">
+                  <MessageCircle className="h-5 w-5 text-primary-turquoise mr-3" />
+                  <a
+                    href="https://wa.me/33766552073"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-primary-violet transition"
+                  >
+                    WhatsApp – Discuter
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-primary-turquoise mr-3" />
-                  <span className="text-gray-600">123 AI Street, Data City, DC 12345</span>
+                  <span className="text-gray-600">Cheraga, Alger, Algérie</span>
+                </div>
+                <div className="flex items-center">
+                <Linkedin className="h-5 w-5 text-primary-turquoise mr-3" />
+                <a
+                  href="https://www.linkedin.com/company/TON-LINK-ICI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-primary-violet transition"
+                >
+                  LinkedIn – SOFIA
+                </a>
                 </div>
               </div>
             </div>
-
+          {/*
             <div>
               <h3 className="text-xl font-semibold text-primary-dark mb-4 font-poppins">
                 {t.contact.info.hours}
@@ -115,6 +137,7 @@ const Contact = () => {
                 {t.contact.info.sunday}
               </p>
             </div>
+            */}
           </div>
         </div>
       </div>

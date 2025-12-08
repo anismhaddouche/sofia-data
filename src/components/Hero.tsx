@@ -1,5 +1,5 @@
 // import React from 'react'; // Not needed with modern JSX Transform
-import { Brain, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Hero = () => {
@@ -34,8 +34,12 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-primary-turquoise rounded-full opacity-10 animate-pulse"></div>
-              <Brain className="h-64 w-64 text-primary-turquoise" />
+             {/* <div className="absolute inset-0 bg-blue-500 rounded-full opacity-20 animate-pulse"></div>  */}
+              <img
+                src="src/public/logo.png" // Remplacez par le chemin de votre logo
+                alt="SOFIA Brain Logo"
+                className="h-74 w-96 object-contain"
+              />
             </div>
           </div>
         </div>

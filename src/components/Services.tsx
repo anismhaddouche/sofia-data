@@ -1,67 +1,67 @@
 // import React from 'react'; // React not directly used, only useState
 import { useState } from 'react';
-import { 
-  BarChart2, 
-  Brain, 
-  Cloud,
-  X
+import {
+  Brain,
+  X,
+  BarChart3,
+  Users
 } from 'lucide-react';
 
 const services = [
   {
-    icon: <BarChart2 className="h-8 w-8" />,
-    title: 'Data science et Analyse de Données',
-    description: 'Exploitez la puissance des données pour générer des insights pertinents et améliorer la prise de décision.',
+    icon: <BarChart3 className="h-8 w-8" />,
+    title: 'Intégrateur BI et Analytics',
+    description: 'Intégrez des solutions Business Intelligence complètes pour transformer vos données en insights stratégiques.',
     useCases: [
       {
-        title: 'Optimisation Industrielle',
-        description: 'Réduction de 30% des coûts de maintenance grâce à la maintenance prédictive.'
+        title: 'Tableaux de Bord Exécutifs',
+        description: 'Création de dashboards interactifs pour le pilotage stratégique en temps réel.'
       },
       {
-        title: 'Analyse Prédictive',
-        description: 'Anticipation des tendances du marché avec une précision de 85%.'
+        title: 'Intégration ETL/ELT',
+        description: 'Automatisation des flux de données depuis toutes vos sources système.'
       },
       {
-        title: 'Segmentation Client',
-        description: 'Augmentation de 40% du taux de conversion grâce à une segmentation avancée.'
+        title: 'Reporting Automatisé',
+        description: 'Génération automatique de rapports personnalisés selon vos besoins métier.'
       }
     ]
   },
   {
     icon: <Brain className="h-8 w-8" />,
-    title: 'MLOps et Déploiement de modèles IA',
-    description: "Automatisez et optimisez le cycle de vie des modèles IA, de l'entraînement au déploiement.",
+    title: 'Automatisation et Déploiement de modèles IA',
+    description: 'De l\'analyse de données à l\'automatisation complète : exploitez la puissance des données et optimisez le cycle de vie des modèles IA.',
     useCases: [
       {
+        title: 'Analyse Prédictive Avancée',
+        description: 'Modèles IA performants pour l\'optimisation industrielle et l\'analyse prédictive avec 85% de précision.'
+      },
+      {
         title: 'Automatisation MLOps',
-        description: 'Réduction de 70% du temps de déploiement des modèles.'
+        description: 'Réduction de 70% du temps de déploiement avec pipelines d\'entraînement et monitoring continu.'
       },
       {
-        title: 'Monitoring Continu',
-        description: 'Détection en temps réel des dérives de modèles.'
-      },
-      {
-        title: 'Pipeline d\'Entraînement',
-        description: 'Infrastructure scalable supportant l\'entraînement de 100+ modèles.'
+        title: 'Segmentation et Insights',
+        description: 'Augmentation de 40% du taux de conversion grâce à la segmentation client avancée et aux insights stratégiques.'
       }
     ]
   },
   {
-    icon: <Cloud className="h-8 w-8" />,
-    title: 'Architecture Cloud et Cybersécurité',
-    description: 'Concevez des infrastructures cloud sécurisées et performantes pour vos données et applications.',
+    icon: <Users className="h-8 w-8" />,
+    title: 'Formation et Conseil',
+    description: 'Accompagnez vos équipes dans leur transformation digitale avec des formations sur mesure et un conseil stratégique expert.',
     useCases: [
       {
-        title: 'Sécurité Multi-Cloud',
-        description: 'Protection des données sensibles avec encryption de bout en bout.'
+        title: 'Formations Data & IA',
+        description: 'Programmes de formation personnalisés pour maîtriser les outils data et l\'intelligence artificielle.'
       },
       {
-        title: 'Conformité RGPD',
-        description: 'Mise en conformité complète des infrastructures data.'
+        title: 'Conseil Stratégique',
+        description: 'Accompagnement dans la définition et la mise en œuvre de votre stratégie data.'
       },
       {
-        title: 'Performance Cloud',
-        description: 'Optimisation des coûts cloud de 45% en moyenne.'
+        title: 'Support et Mentoring',
+        description: 'Suivi personnalisé et accompagnement continu pour assurer l\'adoption durable des solutions.'
       }
     ]
   }
@@ -75,7 +75,7 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary-violet mb-4 font-poppins">Nos services</h2>
-          <p className="text-xl text-gray-600 font-roboto">Des solutions avancées en data science, MLOps et Cloud</p>
+          <p className="text-xl text-gray-600 font-roboto">Des solutions complètes en BI, IA et formation</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

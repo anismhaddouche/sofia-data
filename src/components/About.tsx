@@ -1,4 +1,3 @@
-import React from 'react';
 import { Target, Users, Zap, Linkedin } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -74,7 +73,7 @@ const APropos = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-primary-violet mb-4 font-poppins">
-            Notre Équipe
+            Notre équipe
           </h2>
           <p className="text-xl text-gray-600 font-roboto max-w-3xl mx-auto">
             Notre équipe regroupe des experts de premier plan en science des données, gestion de projets 
